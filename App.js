@@ -25,7 +25,7 @@ const App: () => Node = () => {
     <SafeAreaView>
       <TouchableOpacity style={styles.button} onPress={AppCenterCrash.generateTestCrash}>
         <Text style={styles.text}>
-          Crash
+          Produce Crash
         </Text>
       </TouchableOpacity>
 
