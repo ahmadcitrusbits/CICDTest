@@ -28,7 +28,7 @@ const App: () => Node = () => {
           Produce Crash
         </Text>
       </TouchableOpacity>
-
+      <Text>This is feature 1</Text>
     </SafeAreaView>
   );
 };
