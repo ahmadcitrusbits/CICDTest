@@ -10,12 +10,8 @@ import React from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
   Text, TouchableOpacity,
-  useColorScheme,
-  View,
 } from "react-native";
 import AppCenterCrash from "appcenter-crashes";
 
@@ -28,7 +24,7 @@ const App: () => Node = () => {
           Produce Crash
         </Text>
       </TouchableOpacity>
-
+      <Text>This is feature 1</Text>
     </SafeAreaView>
   );
 };
