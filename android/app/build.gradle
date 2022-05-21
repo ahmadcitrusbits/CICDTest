@@ -228,6 +228,12 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        release {
+            storeFile file('cicd.keystore')
+            storePassword 'android'
+            keyAlias 'key'
+            keyPassword 'android'
+        }
     }
     buildTypes {
         debug {
